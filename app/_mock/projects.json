@@ -1,0 +1,108 @@
+[
+  {
+    "title": "B2B Ecommerce — Jugnu",
+    "start": "2019-07-01",
+    "end": "",
+    "present": true,
+    "link": "https://www.jugnu.pk",
+    "description": [
+      "🚀 Jugnu is the B2B – E-commerce platform, empowering small retailers to reach great heights.",
+      "👨‍💻 Led the development of a tailored SaaS-based product for the sales and growth team.",
+      "👀 Oversaw the creation of a customer-facing application that ensures a smooth and effortless order placement process.",
+      "📱 Restructured the mobile architecture, resulting in an ⬆️ 80% improvement in app size and loading speed.",
+      "🏆 Recognized for outstanding efficiency and reliability."
+    ],
+    "skills": [
+      "Amazon Web Services (AWS)",
+      "React.js",
+      "Node.js",
+      "PHP",
+      "Express.js",
+      "REST APIs",
+      "MySQL",
+      "NoSQL",
+      "MongoDB",
+      "Redux.js",
+      "Object-Oriented Programming (OOP)",
+      "Git",
+      "Bootstrap",
+      "JavaScript",
+      "jQuery",
+      "HTML5",
+      "HTML",
+      "Cascading Style Sheets (CSS)",
+      "AWS Lambda",
+      "Full-Stack Development",
+      "Web Development",
+      "Front-End Development",
+      "Back-End Web Development",
+      "Tableau"
+    ]
+  },
+  {
+    "title": "Consumer Engagement System — Salesflo",
+    "start": "2018-09-01",
+    "end": "2019-06-30",
+    "present": false,
+    "link": "https://pmpklcommercial.com.pk/",
+    "description": [
+      "🔥🚀 I spearheaded the creation of Concore, an exciting Consumer Engagement System at Philip Morris International. This cutting-edge project has revolutionized our marketing efforts, boosting consumer engagement to new heights! 💪",
+      "📈 As the project lead, I successfully orchestrated the development of Concore, delivering impressive results and driving substantial growth in consumer engagement. 📲",
+      "🗺️ By leveraging the power of Google Maps, I expertly planned and executed flawless sales promoter journeys, optimizing productivity and efficiency throughout the process. 📍",
+      "🔒 I also implemented state-of-the-art security measures, guaranteeing a secure and dependable platform for our valued users. 💻"
+    ],
+    "skills": [
+      "Amazon Web Services (AWS)",
+      "Node.js",
+      "PHP",
+      "REST APIs",
+      "MySQL",
+      "NoSQL",
+      "Git",
+      "Bootstrap",
+      "JavaScript",
+      "jQuery",
+      "HTML5",
+      "HTML",
+      "Cascading Style Sheets (CSS)",
+      "AWS Lambda",
+      "Full-Stack Development",
+      "Web Development",
+      "Front-End Development",
+      "Back-End Web Development",
+      "Fortify"
+    ]
+  },
+  {
+    "title": "Distribution Management System — Salesflo",
+    "start": "2018-01-01",
+    "end": "2018-08-30",
+    "present": false,
+    "link": "https://salesflo.com/",
+    "description": [
+      "📢 Salesflo 🚀 is the ultimate distribution management system designed specifically for FMCG companies in both 🌍 local and international markets.",
+      "It empowers businesses to efficiently handle orders, invoices, and inventory with ease. 💼",
+      "💪 Collaborated with the talented BI team to create customized reports that perfectly aligned with the unique needs of the business. 📊",
+      "🔧 Utilized AWS Lambda, AWS CloudWatch, and various other cutting-edge AWS Services to optimize system performance and ensure seamless operations. ⚙️💻"
+    ],
+    "skills": [
+      "Amazon Web Services (AWS)",
+      "Node.js",
+      "PHP",
+      "REST APIs",
+      "MySQL",
+      "NoSQL",
+      "Git",
+      "Bootstrap",
+      "JavaScript",
+      "jQuery",
+      "HTML",
+      "Cascading Style Sheets (CSS)",
+      "AWS Lambda",
+      "Full-Stack Development",
+      "Web Development",
+      "Front-End Development",
+      "Back-End Web Development"
+    ]
+  }
+]

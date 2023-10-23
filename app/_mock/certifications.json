@@ -1,0 +1,51 @@
+[
+  {
+    "name": "AWS Certified Developer – Associate",
+    "source": "Amazon Web Services",
+    "link": "https://www.credly.com/badges/1a98d9c3-3787-4d74-b27f-eeb75fd5b928/linked_in_profile",
+    "issued": "2020-07-15",
+    "expired": "2023-07-15"
+  },
+  {
+    "name": "Kubernetes: Microservices",
+    "source": "LinkedIn",
+    "link": "https://www.linkedin.com/learning/certificates/f261163fb4e0001e3df1cd848e6ad842e6313db48952bd8d7dbf75cff4ea1a43",
+    "issued": "2023-08-01",
+    "expired": ""
+  },
+  {
+    "name": "Advanced Node.js: Scaling Applications",
+    "source": "LinkedIn",
+    "link": "https://www.linkedin.com/learning/certificates/5027206b412eb105e4d1ec4ec617ca69174e23882ebbf59b13d7a975d21fe1f8",
+    "issued": "2023-08-01",
+    "expired": ""
+  },
+  {
+    "name": "React Certificate",
+    "source": "HackerRank",
+    "link": "https://www.hackerrank.com/certificates/98321a59cada",
+    "issued": "2023-02-01",
+    "expired": ""
+  },
+  {
+    "name": "Problem Solving Certificate",
+    "source": "HackerRank",
+    "link": "https://www.hackerrank.com/certificates/57db22eab20a",
+    "issued": "2023-02-01",
+    "expired": ""
+  },
+  {
+    "name": "JavaScript Certificate",
+    "source": "HackerRank",
+    "link": "https://www.hackerrank.com/certificates/525840041316",
+    "issued": "2023-02-01",
+    "expired": ""
+  },
+  {
+    "name": "SQL Certificate",
+    "source": "HackerRank",
+    "link": "https://www.hackerrank.com/certificates/211b977ece54",
+    "issued": "2023-02-01",
+    "expired": ""
+  }
+]

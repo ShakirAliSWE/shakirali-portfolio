@@ -1,0 +1,36 @@
+[
+  {
+    "position": "Technical Lead",
+    "companyName": "Jugnu Tech Pvt. Ltd.",
+    "companyURL": "https://www.jugnu.pk",
+    "start": "2021-01-01",
+    "end": "",
+    "present": true,
+    "location": "Lahore, Pakistan",
+    "points": [
+      "🚀 Technical lead for the Go-To-Market facing apps of the company; responsible for leading a high-performing team of professional developers in executing successful product launches and driving sustained growth in the market.",
+      "⏰ Ensuring timely development of sprints, setting sprint goals, and assigning the team tasks per sprint.",
+      "🤝 Collaborated closely with the business stakeholders, the product team, and the design team to understand and translate business requirements into effective development processes.",
+      "🌟 Implemented strategic engineering excellence initiatives to drive continuous improvement and ensure high-quality deliverables in a dynamic environment."
+    ],
+    "skills": "Amazon Web Services (AWS) · Express.js · MongoDB · Redis · Redux.js · Microservices · JSON Web Token (JWT) · Authentication Protocols · Agile Methodologies · Continuous Integration and Continuous Delivery (CI/CD) · Bootstrap · HTML5 · Full-Stack Development · Front-End Development · Back-End Web Development · Technical Leadership · Management · Data Architecture · Software Development · Project Management · Skill Development · Teamwork · Databases · Leadership · Agile Development"
+  },
+  {
+    "position": "Assistant Product Manager",
+    "companyName": "Salesflo Pvt. Ltd.",
+    "companyURL": "https://salesflo.com",
+    "start": "2019-03-01",
+    "end": "2020-12-30",
+    "present": false,
+    "location": "Karachi, Pakistan"
+  },
+  {
+    "position": "Associate Software Engineer",
+    "companyName": "Salesflo Pvt. Ltd.",
+    "companyURL": "https://salesflo.com",
+    "start": "2018-01-01",
+    "end": "2019-02-28",
+    "present": false,
+    "location": "Karachi, Pakistan"
+  }
+]
