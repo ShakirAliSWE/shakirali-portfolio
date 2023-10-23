@@ -7,3 +7,5 @@ This is my online resume and showcase, presenting skills and achievements with a
 ## Demo
 
 A live demo of the portfolio is available at https://shakirali.netlify.app/
+
+![](https://github.com/ShakirAliSWE/shakirali-portfolio/blob/main/app/assets/shakirali-github-portfolio.gif)
