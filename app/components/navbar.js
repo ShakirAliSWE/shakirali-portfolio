@@ -47,13 +47,9 @@ export default function Navbar() {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 fw-bolder navbar-ul">
             {links.map((link, i) => (
               <li className="nav-item navbar-li" key={i}>
-                <Link
-                  className="nav-link navbar-link"
-                  href={`#${link.id}`}
-                  scroll={true}
-                >
+                <a className="nav-link navbar-link" href={`#${link.id}`}>
                   {link.title}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>
