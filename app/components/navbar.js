@@ -48,8 +48,9 @@ export default function Navbar() {
             {links.map((link, i) => (
               <li className="nav-item navbar-li" key={i}>
                 <Link
-                  className="nav-link scroll navbar-link"
-                  href={`../#${link.id}`}
+                  className="nav-link navbar-link"
+                  href={`#${link.id}`}
+                  scroll={true}
                 >
                   {link.title}
                 </Link>
