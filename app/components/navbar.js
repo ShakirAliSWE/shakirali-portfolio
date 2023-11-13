@@ -50,7 +50,7 @@ export default function Navbar() {
                 <Link
                   className="nav-link scroll navbar-link"
                   data-target={`#${link.id}`}
-                  href="#"
+                  href={`#${link.id}`}
                 >
                   {link.title}
                 </Link>
