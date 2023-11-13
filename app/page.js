@@ -22,16 +22,14 @@ export default function Home() {
           <div className="col-md-7">
             <Experience />
             <hr className="mt-4 pt-4" />
-            <Educations />
-            <hr className="mt-4 pt-4" />
             <Projects />
-            <hr className="mt-4 pt-4" />
           </div>
           <div className="col-md-5">
             <TechnicalSkills />
             <hr className="mt-4 pt-4" />
-            <Certifications />
+            <Educations />
             <hr className="mt-4 pt-4" />
+            <Certifications />
           </div>
         </div>
       </div>

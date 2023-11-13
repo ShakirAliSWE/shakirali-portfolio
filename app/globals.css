@@ -1,47 +1,105 @@
 @import url("bootstrap/dist/css/bootstrap.min.css");
 
+:root {
+  --s-primary-color: #6b705c;
+  --s-secondary-color: #cb997e;
+}
+
 body {
   font-family: "Titillium Web", sans-serif;
 }
 
+.navbar-li a {
+  color: var(--s-primary-color) !important;
+}
+
+.navbar-li a:hover {
+  color: var(--s-secondary-color) !important;
+}
+
 a {
   text-decoration: none;
+  color: var(--s-primary-color);
+}
+
+a:hover {
+  color: var(--s-secondary-color);
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-primary {
+  color: var(--s-primary-color);
+}
+
+.text-bg-primary {
+  background-color: var(--s-secondary-color) !important;
+}
+
+.text-bg-primary:hover {
+  background-color: var(--s-primary-color) !important;
+}
+
+.badge {
+  border-radius: 0 !important;
 }
 
 .fs-7 {
   font-size: 0.7rem !important;
 }
 
-.bg-gradient-primary-to-secondary {
-  background: #36823e;
-  background: linear-gradient(135deg, #36823e 0%, #7fca87 100%);
+.heading-dark {
+  color: var(--s-primary-color) !important;
 }
 
-.text-gradient {
-  background: -webkit-linear-gradient(315deg, #36823e 0%, #7fca87 100%);
+.heading-light {
+  color: var(--s-secondary-color) !important;
+}
+
+.heading-gradient-we {
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--s-primary-color) 0%,
+    var(--s-secondary-color) 100%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.feature {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 3rem;
-  width: 3rem;
-  font-size: 1.5rem;
+.heading-gradient {
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--s-primary-color) 0%,
+    var(--s-secondary-color) 100%
+  );
+  background-clip: text;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.background-gradient {
+  background: var(--s-primary-color);
+  background: linear-gradient(
+    -90deg,
+    var(--s-primary-color) 0%,
+    var(--s-secondary-color) 100%
+  );
 }
 
 .profile {
   position: relative;
   height: 75vw;
   width: 75vw;
-  border-radius: 5vw;
+  border-radius: 2vw;
   margin-top: 5vw;
-  max-height: 40rem;
-  max-width: 40rem;
+  max-height: 25rem;
+  max-width: 25rem;
+  margin-bottom: 5vw;
 }
+
 .profile .profile-img {
   height: 80vw;
   max-height: 45rem;
@@ -50,41 +108,49 @@ a {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .profile .dots-1 {
   position: absolute;
   width: 3vw;
   right: 1.5vw;
   top: 4vw;
 }
+
 .profile .dots-1 svg {
   fill: #fff;
 }
+
 .profile .dots-2 {
   position: absolute;
   width: 3vw;
   right: -4vw;
   top: 6.05vw;
 }
+
 .profile .dots-2 svg {
-  fill: #36823e;
+  fill: var(--s-primary-color);
 }
+
 .profile .dots-3 {
   position: absolute;
   width: 3vw;
   left: 1.5vw;
   bottom: 6.05vw;
 }
+
 .profile .dots-3 svg {
   fill: #fff;
 }
+
 .profile .dots-4 {
   position: absolute;
   width: 3vw;
   left: -4vw;
   bottom: 4vw;
 }
+
 .profile .dots-4 svg {
-  fill: #36823e;
+  fill: var(--s-primary-color);
 }
 
 @media (min-width: 576px) {
@@ -186,12 +252,4 @@ a {
     width: 1.5vw;
     left: -2vw;
   }
-}
-
-.text-justify {
-  text-align: justify !important;
-}
-
-.text-bg-primary {
-  background-color: #36823e !important;
 }

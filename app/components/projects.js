@@ -8,18 +8,18 @@ import { IconLink } from "./icons";
 export default function Projects() {
   const title = "💻 Projects";
   return (
-    <section id="projects" className="mt-4">
+    <section id="projects">
       <div className="d-flex align-items-center justify-content-between mb-4">
-        <h4 className="text-primary fw-bolder text-gradient mb-0">{title}</h4>
+        <h4 className="fw-bolder heading-gradient mb-0 text-uppercase">
+          {title}
+        </h4>
       </div>
       <div className="row gx-5 justify-content-center">
         <div className="col-md-12">
           {projects.map((project, i) => (
             <div className="card shadow rounded border-0 mb-2" key={i}>
               <div className="card-body">
-                <div className="fs-5 text-gradient fw-bolder">
-                  {project.title}
-                </div>
+                <div className="fs-5 fw-bolder">{project.title}</div>
                 <div className="small text-muted mb-2">
                   {dateFormat(project.start)}
                   {" · "}

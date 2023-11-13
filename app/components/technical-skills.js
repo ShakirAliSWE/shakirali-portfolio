@@ -7,8 +7,8 @@ export default function TechnicalSkills() {
   return (
     <section>
       <div className="d-flex align-items-center justify-content-between mb-4">
-        <h4 className="text-primary fw-bolder text-gradient mb-0">
-          👨‍💻 Technical Skills
+        <h4 className="fw-bolder heading-gradient mb-0 text-uppercase">
+          👨‍💻 Skills
         </h4>
       </div>
       <div className="card shadow border-0 rounded mb-3">

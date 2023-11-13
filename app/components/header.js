@@ -54,10 +54,13 @@ export default function Header() {
   useEffect(() => {
     new Typewriter("#writing-text", {
       strings: [
-        "React Expert ‍💻",
-        "Node.js Expert ‍💻",
-        "Code Enthusiast 💻",
-        "Problem Solver 🧩",
+        "Full Stack Developer ‍💻",
+        "Front-End Developer ‍💻",
+        "Back-End Developer ‍💻",
+        // "React Expert ‍💻",
+        // "Node.js Expert ‍💻",
+        // "Code Enthusiast 💻",
+        // "Problem Solver 🧩",
       ],
       autoStart: true,
       loop: true,
@@ -71,18 +74,18 @@ export default function Header() {
         <div className="row gx-5 align-items-center">
           <div className="col-md-6 mb-4">
             <div className="text-xxl-start">
-              <div className="fs-1 text-dark">Hi, I'm {personal?.name}</div>
+              <div className="fs-1 heading-dark">Hi, I'm {personal?.name}</div>
               <h1 className="display-6 fw-bolder">
                 <span
                   id="writing-text"
-                  className="text-gradient d-inline"
+                  className="heading-gradient d-inline"
                 ></span>
               </h1>
               <div className="fs-6 text-dark mb-2">
                 Over 5+ years of experience in building scalable{" "}
-                <span className="fw-bolder text-gradient">Web Apps</span>. Known
-                for technical problem-solving skills.{" "}
-                <span className="fw-bolder text-gradient">
+                <span className="fw-bolder heading-gradient-we">Web Apps</span>.
+                Known for technical problem-solving skills.{" "}
+                <span className="fw-bolder heading-gradient-we">
                   React, Node & PHP
                 </span>{" "}
                 expert.
@@ -118,16 +121,21 @@ export default function Header() {
             </div>
             <p className="fs-6 mt-4 text-center text-lg-start text-dark">
               <span className="me-4">
-                <IconLocation /> {personal.location}
+                <IconCalender />
+                <span style={{ verticalAlign: "middle" }}> {personal.age}</span>
               </span>
               <span className="me-4">
-                <IconCalender /> {personal.age}
+                <IconLocation />
+                <span style={{ verticalAlign: "middle" }}>
+                  {" "}
+                  {personal.location}
+                </span>
               </span>
             </p>
           </div>
           <div className="col-md-6 mb-3">
             <div className="d-flex justify-content-center mt-xxl-0">
-              <div className="profile bg-gradient-primary-to-secondary">
+              <div className="profile background-gradient">
                 <Image
                   className="profile-img"
                   alt={personal.name}

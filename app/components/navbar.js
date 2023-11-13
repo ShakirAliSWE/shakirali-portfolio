@@ -22,10 +22,10 @@ export default function Navbar() {
               <Image width={30} height={30} alt={personal.name} src={photo} />
             </div>
             <div className="d-flex flex-column">
-              <div className="fw-bolder text-gradient">{personal.name}</div>
+              <div className="fw-bolder heading-gradient">{personal.name}</div>
             </div>
           </div>
-          <div className="badge bg-gradient-primary-to-secondary bg-white mb-2 fs-7">
+          <div className="badge background-gradient mb-2 fs-6">
             {personal.tagline}
           </div>
         </Link>
@@ -33,19 +33,22 @@ export default function Navbar() {
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-target="#navbar-content"
+          aria-controls="navbar-content"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon small"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 fw-bolder">
+        <div
+          className="collapse navbar-collapse navbar-container"
+          id="navbar-content"
+        >
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 fw-bolder navbar-ul">
             {links.map((link, i) => (
-              <li className="nav-item" key={i}>
+              <li className="nav-item navbar-li" key={i}>
                 <Link
-                  className="nav-link scroll"
+                  className="nav-link scroll navbar-link"
                   data-target={`#${link.id}`}
                   href="#"
                 >
@@ -55,7 +58,7 @@ export default function Navbar() {
             ))}
             {/* <li className="nav-item">
               <Link
-                className="btn btn-sm bg-gradient-primary-to-secondary text-white"
+                className="btn btn-sm heading-gradient text-white"
                 target="_blank"
                 href={personal.resume}
               >

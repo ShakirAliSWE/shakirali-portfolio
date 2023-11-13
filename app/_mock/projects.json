@@ -1,16 +1,14 @@
 [
   {
-    "title": "B2B Ecommerce — Jugnu",
+    "title": "B2B E-Commerce — Jugnu Tech Pvt. Ltd.",
     "start": "2019-07-01",
     "end": "",
     "present": true,
     "link": "https://www.jugnu.pk",
     "description": [
-      "🚀 Jugnu is the B2B – E-commerce platform, empowering small retailers to reach great heights.",
-      "👨‍💻 Led the development of a tailored SaaS-based product for the sales and growth team.",
-      "👀 Oversaw the creation of a customer-facing application that ensures a smooth and effortless order placement process.",
-      "📱 Restructured the mobile architecture, resulting in an ⬆️ 80% improvement in app size and loading speed.",
-      "🏆 Recognized for outstanding efficiency and reliability."
+      "An SaaS-based eCommerce solution designed to facilitate sales and drive growth.",
+      "Built a user-friendly web portal and mobile app to streamline the order placement, invoicing, and tracking.",
+      "Revamped the web and mobile architecture, resulting in an 80% improvement in loading speed and a 60% reduction in app size."
     ],
     "skills": [
       "Amazon Web Services (AWS)",
@@ -40,16 +38,15 @@
     ]
   },
   {
-    "title": "Consumer Engagement System — Salesflo",
+    "title": "Consumer Engagement System — Salesflo Pvt. Ltd.",
     "start": "2018-09-01",
     "end": "2019-06-30",
     "present": false,
     "link": "https://pmpklcommercial.com.pk/",
     "description": [
-      "🔥🚀 I spearheaded the creation of Concore, an exciting Consumer Engagement System at Philip Morris International. This cutting-edge project has revolutionized our marketing efforts, boosting consumer engagement to new heights! 💪",
-      "📈 As the project lead, I successfully orchestrated the development of Concore, delivering impressive results and driving substantial growth in consumer engagement. 📲",
-      "🗺️ By leveraging the power of Google Maps, I expertly planned and executed flawless sales promoter journeys, optimizing productivity and efficiency throughout the process. 📍",
-      "🔒 I also implemented state-of-the-art security measures, guaranteeing a secure and dependable platform for our valued users. 💻"
+      "Consumer Engagement System to enhance customer relations and increase sales promoter productivity by 80%.",
+      "Introduced Journey Planning functionality for optimizing sales promoter routes.",
+      "Enforced robust web security standards to prevent issues effectively."
     ],
     "skills": [
       "Amazon Web Services (AWS)",
@@ -74,16 +71,15 @@
     ]
   },
   {
-    "title": "Distribution Management System — Salesflo",
+    "title": "Distribution Management System — Salesflo Pvt. Ltd.",
     "start": "2018-01-01",
     "end": "2018-08-30",
     "present": false,
     "link": "https://salesflo.com/",
     "description": [
-      "📢 Salesflo 🚀 is the ultimate distribution management system designed specifically for FMCG companies in both 🌍 local and international markets.",
-      "It empowers businesses to efficiently handle orders, invoices, and inventory with ease. 💼",
-      "💪 Collaborated with the talented BI team to create customized reports that perfectly aligned with the unique needs of the business. 📊",
-      "🔧 Utilized AWS Lambda, AWS CloudWatch, and various other cutting-edge AWS Services to optimize system performance and ensure seamless operations. ⚙️💻"
+      "SaaS-based distribution management system serving FMCG companies, both locally and internationally.",
+      "Efficiently managed a high volume of daily orders, invoices, and inventory items.",
+      "Created reporting tools and multiple reports, reducing report generating time by 80%."
     ],
     "skills": [
       "Amazon Web Services (AWS)",
