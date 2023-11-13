@@ -49,22 +49,12 @@ export default function Navbar() {
               <li className="nav-item navbar-li" key={i}>
                 <Link
                   className="nav-link scroll navbar-link"
-                  data-target={`#${link.id}`}
                   href={`#${link.id}`}
                 >
                   {link.title}
                 </Link>
               </li>
             ))}
-            {/* <li className="nav-item">
-              <Link
-                className="btn btn-sm heading-gradient text-white"
-                target="_blank"
-                href={personal.resume}
-              >
-                <i className="fa fa-download fa-sm"></i> Download Resume
-              </Link>
-            </li> */}
           </ul>
         </div>
       </div>
