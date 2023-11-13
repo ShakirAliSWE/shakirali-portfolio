@@ -49,7 +49,7 @@ export default function Navbar() {
               <li className="nav-item navbar-li" key={i}>
                 <Link
                   className="nav-link scroll navbar-link"
-                  href={`#${link.id}`}
+                  href={`../#${link.id}`}
                 >
                   {link.title}
                 </Link>
