@@ -1,11 +1,20 @@
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-# Shakir Ali Portfolio
+# Run and deploy your AI Studio app
 
-This is my online resume and showcase, presenting skills and achievements with a clean, user-friendly design. Connect with employers, clients, and peers by creating an impressive online presence.
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/70ae3a4e-521a-4704-8b56-98171d8b2ec6
+
+## Run Locally
+
+**Prerequisites:**  Node.js
 
 
-## Demo
-
-A live demo of the portfolio is available at https://shakirali.netlify.app/
-
-![](https://github.com/ShakirAliSWE/shakirali-portfolio/blob/main/app/assets/shakirali-github-portfolio.gif)
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
